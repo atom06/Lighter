@@ -38,3 +38,10 @@ And thats it!
 ## License
 
 Carbon license
+
+## Made By
+
+- [Carbon](@atom06): Made smallize
+- [Micheal Barati](@INeddHelp): Made Lighter
+
+*Smallized was forked from lighter and then made intro this*
