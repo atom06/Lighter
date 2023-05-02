@@ -41,7 +41,7 @@ Carbon license
 
 ## Made By
 
-- [Carbon](@atom06): Made smallize
-- [Micheal Barati](@INeddHelp): Made Lighter
+- [Carbon](https://github.com/atom06): Made smallize
+- [Micheal Barati](https://github.com/INeddHelp): Made Lighter
 
 *Smallized was forked from lighter and then made intro this*
