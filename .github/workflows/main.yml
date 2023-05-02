@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Publish package
         uses: JS-DevTools/npm-publish@v1
         with:
