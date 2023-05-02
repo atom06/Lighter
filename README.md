@@ -1,37 +1,40 @@
-# Lighter
+# Smallize
 
-![feather img](https://i.ibb.co/fDFxKNX/download.png)
-
-Lighter is a command-line tool for splitting large files into smaller ones.
-
-# Installation
-
-To install Lighter, you have to make the installer executable
-
-```bash
-chmod +x installer
-./installer
-```
-
-This will install the Lighter globally on your computer.
+Smallize is a command-line tool that allows you to split large files into smaller ones.  
+I made this cause i was bored so its not that good.
 
 ## Usage
 
-To use Lighter, open your terminal and navigate to the folder that contains the file you want to split. Then, run the following command:
-
-```bash
-lighter
+To use Smallize, run the program using the command: 
+```
+$ npx smallize 
 ```
 
-This will start the Lighter program, which will prompt you to enter the name of the file you want to split. Follow the on-screen instructions to split your file into smaller ones.
+You will then be prompted to enter the name of the file you want to split, and the segment size (in megabytes) that you want to split the file into.
 
-# License
 
-This project is under MIT license
+If you know the name of the file and the segment size ahead of time, you can also specify them as command-line arguments when running the program:
+```
+$ npx smallize fiilename segmentSize
+```
 
-# Acknowledgments
+## Example
+Aim: Segement a text file `foo.txt` of lenght 10mb into 2mb files
 
-- [Atom06](https://github.com/atom06) - Contribution
+Non interactively:
+```
+$ npx smallize foo.txt 2
+```
 
-# Contributing
-Contributions are always welcome! If you want to apply a change please sumbit a pull request.
+or interactively:
+```
+$ smallize
+Enter a file to split (or type "exit" to stop): foo.txt
+Enter segment size for file largefile.zip (in MB): 2
+```
+
+And thats it!
+
+## License
+
+Carbon license
