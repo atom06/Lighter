@@ -11,6 +11,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Publish package
-        uses: JS-DevTools/npm-publish@v1
+        run: npm publish 
         with:
           npm_token: ${{ secrets.TOKEN }}
